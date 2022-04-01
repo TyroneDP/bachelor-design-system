@@ -1,0 +1,13 @@
+@import '../../colors/src/colors.scss';
+@import '../../typography/src/typography.scss';
+
+.button {
+  --button-color: red;
+
+  background-color: var(--button-color);
+  border: none;
+  border-radius: 0.25rem;
+  font-family: var(--tdp-text-font-family-heading);
+  font-size: var(--tdp-text-font-size-big);
+  padding: 0.5rem 1rem;
+}

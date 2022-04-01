@@ -1,6 +1,6 @@
 {
   "name": "@backlight-dev/tdp.bachelor-design-system",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "",
   "license": "MIT",
   "type": "module",
@@ -9,5 +9,11 @@
     "serve": "npx backlight@latest serve Ix0XiIrzRh4uekD8zyjR --open"
   },
   "devDependencies": {},
-  "dependencies": {}
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "3.4.3",
+    "@divriots/dockit-react": "*",
+    "@mdx-js/react": "*"
+  }
 }
