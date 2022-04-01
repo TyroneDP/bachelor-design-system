@@ -1,8 +1,10 @@
 @import '../../typography/src/typography.scss';
 
 :root {
-  --tdp-color-primary: #d391ff;
-  --tdp-color-secondary: #e6d5f3;
-  --tdp-color-foreground: #222;
-  --tdp-color-background: #f2f2f2;
+  --tdp-color-palette-primary: #d391ff;
+  --tdp-color-palette-secondary: #e6d5f3;
+  --tdp-color-palette-foreground: #222;
+  --tdp-color-palette-background: #f2f2f2;
+
+  --tdp-color-sem-primary: var(--tdp-color-palette-foreground);
 }

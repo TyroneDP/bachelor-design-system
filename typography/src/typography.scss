@@ -1,7 +1,10 @@
 :root {
-  --tdp-text-font-family-body: 'Segoe UI';
+  --tdp-text-font-family-primary: 'Segoe UI';
+  --tdp-text-font-family-secondary: Verdana;
   --tdp-text-font-family-heading: 'Segoe UI Semibold';
   --tdp-text-font-family-black: 'Segoe UI Black';
+
+  --tdp-text-font-style-italic: italic;
 
   --tdp-text-size-small: 18px;
   --tdp-text-size-normal: 20px;
@@ -10,4 +13,7 @@
 
   --tdp-text-weight-normal: normal;
   --tdp-text-weight-bold: bold;
+
+  --tdp-text-decoration-none: none;
+  --tdp-text-decoration-underline: underline;
 }

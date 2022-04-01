@@ -2,12 +2,57 @@
 @import '../../typography/src/typography.scss';
 
 .button {
-  --button-color: red;
-
   background-color: var(--button-color);
   border: none;
+  cursor: pointer;
   border-radius: 0.25rem;
   font-family: var(--tdp-text-font-family-heading);
   font-size: var(--tdp-text-font-size-big);
   padding: 0.5rem 1rem;
+}
+
+.ripple-button {
+  border-radius: 0.25rem;
+  border: none;
+  margin: 8px;
+  padding: 0.5rem 1rem;
+  --button-color: var(--tdp-color-palette-primary);
+  background-color: var(--button-color);
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  font-family: var(--tdp-text-font-family-heading);
+  font-size: var(--tdp-text-font-size-big);
+}
+
+.ripple-button > .ripple {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background: var(--tdp-color-palette-background);
+  display: block;
+  content: '';
+  border-radius: 9999px;
+  opacity: 1;
+  animation: 0.9s ease 1 forwards ripple-effect;
+}
+
+@keyframes ripple-effect {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(10);
+    opacity: 0.375;
+  }
+  100% {
+    transform: scale(35);
+    opacity: 0;
+  }
+}
+
+.ripple-button > .content {
+  position: relative;
+  z-index: 2;
 }
