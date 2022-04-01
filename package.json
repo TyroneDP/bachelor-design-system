@@ -1,0 +1,13 @@
+{
+  "name": "@backlight-dev/tdp.bachelor-design-system",
+  "version": "0.0.1",
+  "description": "",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "{{ homepage }}",
+  "scripts": {
+    "serve": "npx backlight@latest serve Ix0XiIrzRh4uekD8zyjR --open"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
