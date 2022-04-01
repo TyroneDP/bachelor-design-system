@@ -1,8 +1,18 @@
 * {
-  font-family: var(--tdp-text-font-family-body);
+  font-family: var(--tdp-text-font-family-primary);
+  color: var(--tdp-color-sem-primary);
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: var(--tdp-text-font-family-heading);
+}
+
+a {
+  text-decoration: var(--tdp-text-decoration-none);
+}
+
+a:hover {
+  text-decoration: var(--tdp-text-decoration-underline);
 }
